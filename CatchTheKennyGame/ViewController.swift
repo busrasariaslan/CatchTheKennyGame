@@ -87,7 +87,7 @@ class ViewController: UIViewController {
         kennyArray = [kenny1, kenny2, kenny3, kenny4, kenny5, kenny6, kenny7, kenny8, kenny9]
         
         //Timers
-        counter = 30
+        counter = 15
         timeLabel.text = String(counter)
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countDown), userInfo: nil, repeats: true)
@@ -149,7 +149,7 @@ class ViewController: UIViewController {
                 
                 self.score = 0
                 self.scoreLabel.text = "Score: \(self.score)"
-                self.counter = 15
+                self.counter = 30
                 self.timeLabel.text = String(self.counter)
                 
                 
